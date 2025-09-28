@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html forms
+
+    </title>
+</head>
+
+<body>
+    <form action="results.html" method="POST">
+        <table border="1">
+            <h1>Contact Form </h1>
+            <tr>
+                <td><label for="username">username</label> </td>
+                <td><input type="username" name="username" id="username"></td>
+            </tr>
+            <!--email with validation-->
+            <tr>
+                <td><label for="email">email</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">password</label></td>
+                <td><input type="text" name="password" id="password">
+                    <!--password (hidden)-->
+            </tr>
+
+            <tr>
+                <td><label for="phone">phone</label></td>
+                <td><input type="text" name="phone" id="phone">
+
+            </tr>
+            <tr>
+                <td><label for="Date">Date:</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label for="message">message:</label></td>
+                <td><textarea name="message" id="message" rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="time">time</label></td>
+                <td><input type="time" name="time" id=""></td>
+            </tr>
+
+            <tr>
+                <td>grade:</td>
+                <td>
+                    <label> <input type="text" name="grade" value=""> Grade</label> <br>
+                    <label> <input type="text" name="grade" value=""> Grade</label>
+                </td>
+            </tr>
+
+            <tr>
+                <!--checkboxes-->
+                <td>
+                    <p>
+                        <label for="checkbox">email</label>
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <!--select (drop down)-->
+                <td> <label for="sports">select: </label></td>
+                <td>
+                    <select name="sport" id="sports">select a sport: </select>
+                    <option value="" selected disabled>select a sport: </option>
+                    <option value="soccer">soccer</option>
+                    <option value="baseball">baseball</option>
+                    <option value="basketball">basketball</option>
+                </td>
+
+            </tr>
+
+        </table>
+        <button type="submit">submit</button>
+
+    </form>
+git remote add origin https://github.com/anyasingh03/unit1-html.git
+git branch -M main
+git push -u origin main
+</body>
+
+
+</html>
